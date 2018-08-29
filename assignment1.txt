@@ -1,0 +1,24 @@
+1. Add a Button in HTML and assign click event to alert the text on Button
+2. create an input text and console the value entered in input upon eaach keystroke
+	validate the input box such that no other characters have to enter except a-zA-Z
+	by default the input should have the class 'not-touched'
+	if input is invlalid assign the class 'has-error'
+	if input is valid assign the class 'valid'
+3. create array of objects with following keys
+	{
+		name:"",//random Names 
+		id:"", //starts from 1-100
+		contact:{
+			phonenumber:9876543210,
+			address:{
+				street:""
+				city:"",
+				state:"",
+				country
+			}
+		}
+	}
+	
+	i. filter the array with same city and console
+	ii. count the array with even id
+	iii. console the object where the sum of all digits of Phone Number is greater than 5
